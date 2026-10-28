@@ -1,0 +1,27 @@
+
+# Dataset lớn: không đưa lên GitHub
+VinaFood21/
+**/VinaFood21/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Model weights và checkpoint
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Kết quả sinh ra khi train
+results/*
+!results/.gitkeep
+
+# Cache
+*.npz
+.ipynb_checkpoints/
+
+# Secrets
+.env
