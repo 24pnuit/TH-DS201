@@ -15,10 +15,6 @@ __pycache__/
 *.ckpt
 *.safetensors
 
-# Kết quả sinh ra khi train
-results/*
-!results/.gitkeep
-
 # Cache
 *.npz
 .ipynb_checkpoints/

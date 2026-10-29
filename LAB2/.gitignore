@@ -5,10 +5,7 @@ data/
 cache/
 *.npz
 
-# Training artifacts
-results/
-*.pt
-*.pth
+
 __pycache__/
 .ipynb_checkpoints/
 .env
