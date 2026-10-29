@@ -1,0 +1,14 @@
+# Dataset (large; do not commit)
+VinaFood21/
+**/VinaFood21/
+data/
+cache/
+*.npz
+
+# Training artifacts
+results/
+*.pt
+*.pth
+__pycache__/
+.ipynb_checkpoints/
+.env

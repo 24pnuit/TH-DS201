@@ -24,7 +24,7 @@ def main():
     print("GoogLeNet stem:", tuple(x.shape), f"{n_params(g.stem):,}")
     for i, (blk, pool) in enumerate(zip(g.blocks, g.pools), 1):
         x = blk(x)
-        print(f"  block {i}: out {tuple(x.shape)}  params {n_params(blk):,}")
+        print(f"  block {i}: channels {x.shape[1]}, shape {tuple(x.shape)}, params {n_params(blk):,}")
         x = pool(x)
     print("GoogLeNet total:", f"{n_params(g):,}", "logits", tuple(g(torch.rand(2, 3, 64, 64)).shape))
 
