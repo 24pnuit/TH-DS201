@@ -1,0 +1,15 @@
+{
+  "model": "lenet_max",
+  "img": 64,
+  "lr": 0.001,
+  "epochs": 30,
+  "augment": true,
+  "params": 339421,
+  "trainable": 339421,
+  "best_epoch": 23,
+  "sec_per_epoch": 9.491537817319234,
+  "accuracy": 0.3371744986530979,
+  "precision": 0.33297444187932285,
+  "recall": 0.3212867400436847,
+  "f1": 0.3140008839020296
+}
