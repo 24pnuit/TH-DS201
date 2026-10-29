@@ -2,14 +2,14 @@
   "model": "lenet_avg",
   "img": 64,
   "lr": 0.001,
-  "epochs": 3,
+  "epochs": 30,
   "augment": true,
   "params": 339421,
   "trainable": 339421,
-  "best_epoch": 3,
-  "sec_per_epoch": 10.750842094421387,
-  "accuracy": 0.2553127806046094,
-  "precision": 0.2162563191212397,
-  "recall": 0.2329440333746908,
-  "f1": 0.19062275139449383
+  "best_epoch": 30,
+  "sec_per_epoch": 24.984137225151063,
+  "accuracy": 0.3184675246932056,
+  "precision": 0.3104377695426649,
+  "recall": 0.3034366153219841,
+  "f1": 0.2998579813755693
 }
